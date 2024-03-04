@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-top: 1px solid black;
+    gap: 0.4rem;
+    text-align: center;
+}
+.footer span {
+    border-bottom: 1px solid rgb(202, 202, 202);
+    padding-bottom: 0.3rem;
+}
+.footer span, .footer a {
+    color: black;
+}
+
+.footer a {
+    text-decoration: none;
+}

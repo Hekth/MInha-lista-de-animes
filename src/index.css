@@ -1,0 +1,11 @@
+@import url('styles/reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+body, button, input {
+    font-family: "Josefin Sans", sans-serif;
+}

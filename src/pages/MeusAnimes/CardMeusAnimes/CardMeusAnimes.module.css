@@ -1,0 +1,158 @@
+.cardContainer {
+    position: relative;
+}
+
+.imgContainer {
+    height: 300px;
+    border: 2px solid grey;
+}
+
+.cardOpcoes {
+    display: flex;
+    gap: 0.3rem;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 100%;
+}
+
+.opcao {
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+.opcao:hover {
+    transform: scale(1.1);
+}
+
+.verMaisBtn {
+    text-align: center;
+    width: 100%;
+    border: none;
+    background-color: rgb(56, 119, 255);
+    color: white;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.verMaisBtn:hover {
+    background-color: rgb(37, 92, 211);
+}
+
+.verMaisBtn:active {
+    background-color: rgb(29, 70, 160);
+}
+
+.modal {
+    padding: 0;
+    max-width: 800px;
+    width: 90%;
+    min-width: 280px;
+    border: 1px solid black;
+}
+
+.modalContainer {
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    gap: 2rem;
+    position: relative;
+}
+
+.modalContainerInfos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.modalContainerInfos div {
+    border-bottom: 1px solid rgb(206, 206, 206);
+    padding: 0.5rem 0;
+}
+
+.modalContainerInfos div h2 {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.fechaModal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.2rem;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.concluido {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background-color: rgb(255, 255, 255);
+    padding: 0 0.3rem;
+}
+
+.naoConcluido {
+    display: none;
+}
+
+.concluidoBorda {
+    border-color: rgb(75, 173, 75);
+}
+
+.modalAtualizarAnime {
+    max-width: 800px;
+    width: 50%;
+    min-width: 280px;
+}
+
+.formAtualizarAnime {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.formAtualizarAnime h2 {
+    max-width: 80% ;
+}
+
+.formAtualizarAnime div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formAtualizarAnime div input, .formAtualizarAnime div select {
+    padding: 0.5rem;
+    width: 30%;
+    text-align: center;
+    min-width: 250px;
+    max-width: 600px;
+}
+
+.formAtualizarAnime label {
+    font-size: 1.1rem;
+}
+
+.formAtualizarAnime textarea {
+    width: 30%;
+    min-width: 250px;
+    max-width: 600px;
+}
+
+.atualizarAnimeBtn {
+    padding: 0.5rem;
+    width: 60%;
+    margin: auto;
+}
+
+@media screen and (max-width: 540px) {
+    .modalContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+}

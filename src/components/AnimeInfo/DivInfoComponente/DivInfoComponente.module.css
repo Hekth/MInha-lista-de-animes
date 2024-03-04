@@ -1,0 +1,9 @@
+.containerInfo {
+    margin: 0.5rem 0;
+}
+
+.containerInfo h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: inline;
+}

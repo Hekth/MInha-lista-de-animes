@@ -1,0 +1,15 @@
+.voltarBotao {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 0.4rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    background-color: rgb(56, 119, 255);
+}
+
+.voltarBotaoContainer {
+    margin: 2rem 0;
+}
