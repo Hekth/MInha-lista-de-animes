@@ -56,7 +56,6 @@ export default function MeusAnimes() {
             const filtraFavorito = favorito ? meuAnime.favorito : true;
             
             const filtraPorStatus = status === 'todos' ? true : verificaStatus(meuAnime.concluido);
-            console.log(filtraPorTitulos, filtraPorGenero, filtraFavorito, filtraPorStatus);
             return filtraPorTitulos && filtraPorGenero && filtraFavorito && filtraPorStatus;
         });
         if (ordenado !== 'recentes') return ordenarMeusAnimes(filtro);
